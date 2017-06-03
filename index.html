@@ -56,7 +56,7 @@
          */
         function handleAuthClick(event) {
             gapi.auth.authorize(
-                                {client_id: CLIENT_ID, scope: SCOPES, immediate: false},
+                                {client_id: CLIENT_ID, scope: SCOPES, immediate: true},
                                 handleAuthResult);
                                 return false;
         }
